@@ -36,9 +36,12 @@ Project structure:
 - playwright/ -> UI automation tests
 - sql/ -> SQL practice examples
 - k8s/ -> Kubernetes manifests
+- docker/ -> Docker runner examples
 - bug-reports/ -> bug report examples
 - test-cases/ -> test case examples
 - notes/ -> QA notes and learning materials
+- docs/ -> human-facing project documentation
+- .agent/ -> Codex project memory and ExecPlan instructions
 
 Useful commands:
 - npm test -> run all Playwright tests
@@ -51,6 +54,12 @@ Environment:
 - `.env.example` contains safe public API practice values
 - local `.env` is ignored and can override API settings
 - CI workflows define the same public practice values explicitly
+
+Documentation:
+- `AGENTS.md` describes how Codex and future AI sessions should work in this repository
+- `.agent/PLANS.md` describes ExecPlans for larger changes
+- `.agent/PROJECT_CONTEXT.md`, `.agent/TASKS.md`, `.agent/DECISIONS.md`, and `.agent/COMMANDS.md` keep project memory out of the root
+- `docs/README.md` is the entry point for broader human-facing documentation
 
 GitHub language statistics note:
 - Generated HTML reports are ignored with `.gitignore` and `.gitattributes`
