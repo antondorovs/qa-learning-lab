@@ -17,6 +17,7 @@
 - Added Docker and Kubernetes runner examples.
 - Fixed CI env handling with `.env.example`, safe defaults, and explicit workflow env vars.
 - Stabilized UI tests with Playwright route mocks.
+- Added regression-focused API checks, JS risk summary helper, and SQL triage queries.
 
 ## Good Next Tasks
 
